@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     assertEquals(expected, result);
   }
 
-  @Test
+  @org.junit.Test
   public void remainTestSecond() {
 
     int expected = 1;
@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
     assertEquals(expected, result);
   }
 
-  @Test
+  @org.junit.Test
   public void remainTestThird() {
 
     int expected = 999;
@@ -37,7 +37,7 @@ public class CashbackHackServiceTest {
     assertEquals(expected, result);
   }
 
-  @Test
+  @org.junit.Test
   public void remainFalse() {
 
     int expected = 0;
